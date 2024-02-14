@@ -18,6 +18,9 @@ public class verifyStudentCertificationUseCase {
       ) {
       throw new ELException("Email or technology cannot be empty");
     }
+
+    // implement logic
+
     return true;
   }
 }
